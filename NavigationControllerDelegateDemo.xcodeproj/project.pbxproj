@@ -9,64 +9,33 @@
 /* Begin PBXBuildFile section */
 		C1BA26E123423AB000439ADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA26E023423AB000439ADC /* AppDelegate.swift */; };
 		C1BA26E323423AB000439ADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA26E223423AB000439ADC /* SceneDelegate.swift */; };
-		C1BA26E523423AB000439ADC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA26E423423AB000439ADC /* ViewController.swift */; };
 		C1BA26E823423AB000439ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BA26E623423AB000439ADC /* Main.storyboard */; };
 		C1BA26EA23423AB100439ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BA26E923423AB100439ADC /* Assets.xcassets */; };
 		C1BA26ED23423AB100439ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1BA26EB23423AB100439ADC /* LaunchScreen.storyboard */; };
-		C1BA26F823423AB200439ADC /* NavigationControllerDelegateDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA26F723423AB200439ADC /* NavigationControllerDelegateDemoTests.swift */; };
-		C1BA270323423AB200439ADC /* NavigationControllerDelegateDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA270223423AB200439ADC /* NavigationControllerDelegateDemoUITests.swift */; };
+		C1BA271223423B0800439ADC /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA271123423B0800439ADC /* ViewController1.swift */; };
+		C1BA271323423B0800439ADC /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA271023423B0800439ADC /* ViewController2.swift */; };
+		C1BA271A23423C2100439ADC /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA271923423C2100439ADC /* NavigationController.swift */; };
+		C1BA271C23423C5400439ADC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA271B23423C5400439ADC /* TabBarController.swift */; };
+		C1BA271E23423C7E00439ADC /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BA271D23423C7E00439ADC /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C1BA26F423423AB200439ADC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1BA26D523423AB000439ADC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1BA26DC23423AB000439ADC;
-			remoteInfo = NavigationControllerDelegateDemo;
-		};
-		C1BA26FF23423AB200439ADC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C1BA26D523423AB000439ADC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C1BA26DC23423AB000439ADC;
-			remoteInfo = NavigationControllerDelegateDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C1BA26DD23423AB000439ADC /* NavigationControllerDelegateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationControllerDelegateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BA26E023423AB000439ADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1BA26E223423AB000439ADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C1BA26E423423AB000439ADC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1BA26E723423AB000439ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1BA26E923423AB100439ADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1BA26EC23423AB100439ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1BA26EE23423AB100439ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1BA26F323423AB200439ADC /* NavigationControllerDelegateDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerDelegateDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1BA26F723423AB200439ADC /* NavigationControllerDelegateDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegateDemoTests.swift; sourceTree = "<group>"; };
-		C1BA26F923423AB200439ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1BA26FE23423AB200439ADC /* NavigationControllerDelegateDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerDelegateDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1BA270223423AB200439ADC /* NavigationControllerDelegateDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegateDemoUITests.swift; sourceTree = "<group>"; };
-		C1BA270423423AB200439ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1BA271023423B0800439ADC /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C1BA271123423B0800439ADC /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		C1BA271923423C2100439ADC /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		C1BA271B23423C5400439ADC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		C1BA271D23423C7E00439ADC /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C1BA26DA23423AB000439ADC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1BA26F023423AB200439ADC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1BA26FB23423AB200439ADC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				C1BA26DF23423AB000439ADC /* NavigationControllerDelegateDemo */,
-				C1BA26F623423AB200439ADC /* NavigationControllerDelegateDemoTests */,
-				C1BA270123423AB200439ADC /* NavigationControllerDelegateDemoUITests */,
 				C1BA26DE23423AB000439ADC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				C1BA26DD23423AB000439ADC /* NavigationControllerDelegateDemo.app */,
-				C1BA26F323423AB200439ADC /* NavigationControllerDelegateDemoTests.xctest */,
-				C1BA26FE23423AB200439ADC /* NavigationControllerDelegateDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,32 +65,18 @@
 			isa = PBXGroup;
 			children = (
 				C1BA26E023423AB000439ADC /* AppDelegate.swift */,
+				C1BA271923423C2100439ADC /* NavigationController.swift */,
 				C1BA26E223423AB000439ADC /* SceneDelegate.swift */,
-				C1BA26E423423AB000439ADC /* ViewController.swift */,
+				C1BA271123423B0800439ADC /* ViewController1.swift */,
+				C1BA271023423B0800439ADC /* ViewController2.swift */,
+				C1BA271B23423C5400439ADC /* TabBarController.swift */,
 				C1BA26E623423AB000439ADC /* Main.storyboard */,
+				C1BA271D23423C7E00439ADC /* UIImageExtension.swift */,
 				C1BA26E923423AB100439ADC /* Assets.xcassets */,
 				C1BA26EB23423AB100439ADC /* LaunchScreen.storyboard */,
 				C1BA26EE23423AB100439ADC /* Info.plist */,
 			);
 			path = NavigationControllerDelegateDemo;
-			sourceTree = "<group>";
-		};
-		C1BA26F623423AB200439ADC /* NavigationControllerDelegateDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				C1BA26F723423AB200439ADC /* NavigationControllerDelegateDemoTests.swift */,
-				C1BA26F923423AB200439ADC /* Info.plist */,
-			);
-			path = NavigationControllerDelegateDemoTests;
-			sourceTree = "<group>";
-		};
-		C1BA270123423AB200439ADC /* NavigationControllerDelegateDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C1BA270223423AB200439ADC /* NavigationControllerDelegateDemoUITests.swift */,
-				C1BA270423423AB200439ADC /* Info.plist */,
-			);
-			path = NavigationControllerDelegateDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,42 +99,6 @@
 			productReference = C1BA26DD23423AB000439ADC /* NavigationControllerDelegateDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1BA26F223423AB200439ADC /* NavigationControllerDelegateDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1BA270A23423AB200439ADC /* Build configuration list for PBXNativeTarget "NavigationControllerDelegateDemoTests" */;
-			buildPhases = (
-				C1BA26EF23423AB200439ADC /* Sources */,
-				C1BA26F023423AB200439ADC /* Frameworks */,
-				C1BA26F123423AB200439ADC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1BA26F523423AB200439ADC /* PBXTargetDependency */,
-			);
-			name = NavigationControllerDelegateDemoTests;
-			productName = NavigationControllerDelegateDemoTests;
-			productReference = C1BA26F323423AB200439ADC /* NavigationControllerDelegateDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C1BA26FD23423AB200439ADC /* NavigationControllerDelegateDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1BA270D23423AB200439ADC /* Build configuration list for PBXNativeTarget "NavigationControllerDelegateDemoUITests" */;
-			buildPhases = (
-				C1BA26FA23423AB200439ADC /* Sources */,
-				C1BA26FB23423AB200439ADC /* Frameworks */,
-				C1BA26FC23423AB200439ADC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C1BA270023423AB200439ADC /* PBXTargetDependency */,
-			);
-			name = NavigationControllerDelegateDemoUITests;
-			productName = NavigationControllerDelegateDemoUITests;
-			productReference = C1BA26FE23423AB200439ADC /* NavigationControllerDelegateDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,14 +111,6 @@
 				TargetAttributes = {
 					C1BA26DC23423AB000439ADC = {
 						CreatedOnToolsVersion = 11.0;
-					};
-					C1BA26F223423AB200439ADC = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = C1BA26DC23423AB000439ADC;
-					};
-					C1BA26FD23423AB200439ADC = {
-						CreatedOnToolsVersion = 11.0;
-						TestTargetID = C1BA26DC23423AB000439ADC;
 					};
 				};
 			};
@@ -221,8 +128,6 @@
 			projectRoot = "";
 			targets = (
 				C1BA26DC23423AB000439ADC /* NavigationControllerDelegateDemo */,
-				C1BA26F223423AB200439ADC /* NavigationControllerDelegateDemoTests */,
-				C1BA26FD23423AB200439ADC /* NavigationControllerDelegateDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +143,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1BA26F123423AB200439ADC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1BA26FC23423AB200439ADC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,42 +150,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1BA26E523423AB000439ADC /* ViewController.swift in Sources */,
+				C1BA271323423B0800439ADC /* ViewController2.swift in Sources */,
+				C1BA271223423B0800439ADC /* ViewController1.swift in Sources */,
+				C1BA271E23423C7E00439ADC /* UIImageExtension.swift in Sources */,
+				C1BA271A23423C2100439ADC /* NavigationController.swift in Sources */,
+				C1BA271C23423C5400439ADC /* TabBarController.swift in Sources */,
 				C1BA26E123423AB000439ADC /* AppDelegate.swift in Sources */,
 				C1BA26E323423AB000439ADC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1BA26EF23423AB200439ADC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1BA26F823423AB200439ADC /* NavigationControllerDelegateDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1BA26FA23423AB200439ADC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1BA270323423AB200439ADC /* NavigationControllerDelegateDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C1BA26F523423AB200439ADC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1BA26DC23423AB000439ADC /* NavigationControllerDelegateDemo */;
-			targetProxy = C1BA26F423423AB200439ADC /* PBXContainerItemProxy */;
-		};
-		C1BA270023423AB200439ADC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C1BA26DC23423AB000439ADC /* NavigationControllerDelegateDemo */;
-			targetProxy = C1BA26FF23423AB200439ADC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C1BA26E623423AB000439ADC /* Main.storyboard */ = {
@@ -435,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CW8X9NUYB;
 				INFOPLIST_FILE = NavigationControllerDelegateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CW8X9NUYB;
 				INFOPLIST_FILE = NavigationControllerDelegateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -461,86 +329,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		C1BA270B23423AB200439ADC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NavigationControllerDelegateDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidnapper.NavigationControllerDelegateDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationControllerDelegateDemo.app/NavigationControllerDelegateDemo";
-			};
-			name = Debug;
-		};
-		C1BA270C23423AB200439ADC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NavigationControllerDelegateDemoTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidnapper.NavigationControllerDelegateDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NavigationControllerDelegateDemo.app/NavigationControllerDelegateDemo";
-			};
-			name = Release;
-		};
-		C1BA270E23423AB200439ADC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NavigationControllerDelegateDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidnapper.NavigationControllerDelegateDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NavigationControllerDelegateDemo;
-			};
-			name = Debug;
-		};
-		C1BA270F23423AB200439ADC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NavigationControllerDelegateDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidnapper.NavigationControllerDelegateDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NavigationControllerDelegateDemo;
 			};
 			name = Release;
 		};
@@ -561,24 +349,6 @@
 			buildConfigurations = (
 				C1BA270823423AB200439ADC /* Debug */,
 				C1BA270923423AB200439ADC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1BA270A23423AB200439ADC /* Build configuration list for PBXNativeTarget "NavigationControllerDelegateDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1BA270B23423AB200439ADC /* Debug */,
-				C1BA270C23423AB200439ADC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1BA270D23423AB200439ADC /* Build configuration list for PBXNativeTarget "NavigationControllerDelegateDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1BA270E23423AB200439ADC /* Debug */,
-				C1BA270F23423AB200439ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
